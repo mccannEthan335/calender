@@ -1,6 +1,8 @@
 var date = $("#currentDay");
 var hour = moment().hours();
 
+
+
 $("#save").click(function  () {
   $("input[type='text']").each( function () {
     var save = $(this).attr('id');
@@ -28,3 +30,6 @@ $(document).ready(function () {
     }
   });
 });
+
+
+
