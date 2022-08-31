@@ -1,5 +1,7 @@
+$(document).ready(function () {
+
 var date = $("#currentDay");
-var hour = moment().hours();
+var now = moment().format("Mo , Do");
 
 
 
@@ -30,6 +32,6 @@ $(document).ready(function () {
     }
   });
 });
-
+});
 
 
